@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+
+/*        paleta de colores */
+
+    --color1:#7CC9CF;
+    --color2:#1CA0A8;
+    --color3:#BFBFBF;
+    --color4:#616161;
+    --color5:#FFFFFF;
+    
+
+}
+
+body{
+    
+    font-family: roboto;
+}
+
+/* --- AGREGAR ESTO EN TU ARCHIVO CSS GLOBAL O styles.jspf --- */
+
+/* Color de fondo del sidebar (Turquesa) */
+.bg-teal {
+    background-color: #008080 !important; 
+}
+
+/* Estilo para el enlace activo (el que tiene el fondo semitransparente) */
+.active-link {
+    background-color: rgba(255, 255, 255, 0.20); 
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Efecto Hover suave para los items que no están activos */
+.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.10);
+    border-radius: 5px;
+}
+
+/* Contenedor principal */
+#wrapper {
+    min-height: 100vh; 
+}
